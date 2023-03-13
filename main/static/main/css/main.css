@@ -1,0 +1,108 @@
+.main {
+    position: relative;
+    /* width: 100vw; */
+    height: 100vh;
+    background-color: var(--green);
+}
+
+.main .logo {
+    position: relative;
+    transform: translate(-45%, -0%);
+    left: 50%;
+    width: 229px;
+    height: 52px;
+    background-repeat: no-repeat;
+}
+
+.main .container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 1170px;
+    height: 560px;
+}
+
+.main .content {
+    position: relative;
+    width: 662px;
+    height: 314px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.main .img_1 {
+    position: absolute;
+    width: 240px;
+    height: 300px;
+    background-color: gray;
+    left: 100%;
+    bottom: 100%;
+    transform: translate(-100%, 100%);
+    border-radius: 80px 0 0 0;
+    text-align: center;
+    z-index: 100;
+}
+
+.main .img_2 {
+    position: absolute;
+    width: 240px;
+    height: 300px;
+    background-color: gray;
+    transform: translate(0%, -50%);
+    border-radius: 0 80px 0 0;
+    text-align: center;
+    z-index: 100;
+
+}
+
+.main .img_1:before{
+    content: "";
+    position: absolute;
+    width: 240px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0);
+    left: calc(100% - 30px);
+    bottom: calc(100% + 30px);
+    transform: translate(-100%, 100%);
+    border-radius: 80px 0 0 0;
+    text-align: center;
+    border: 1px dashed var(--text-light-color);
+    z-index: -1;
+
+
+}
+
+.main .img_2:before {
+    content: "";
+    position: absolute;
+    width: 240px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0);
+    left: calc(100% + 30px);
+    bottom: calc(100% - -30px);
+    transform: translate(-100%, 100%);
+    border-radius: 0 80px 0 0;
+    text-align: center;
+    border: white dashed 2px;
+    z-index: -1;
+}
+
+.main .scroll {
+    min-inline-size: 10em;
+    text-align: center;
+    writing-mode: vertical-lr;
+    transform: rotate(-90deg);
+    position: relative;
+    transform: translate(-100%, -50%);
+    left: 100%;
+    width: 18px;
+    height: 164px;
+}
+

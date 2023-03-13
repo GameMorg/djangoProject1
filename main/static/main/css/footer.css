@@ -1,0 +1,7 @@
+.footer{
+    color: var(--text-darck-color);
+}
+
+.footer .container{
+    display: flex;
+}

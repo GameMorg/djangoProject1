@@ -1,0 +1,36 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Banana Store</title>
+    <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'main/css/header.css' %}">
+    <link rel="stylesheet" href="{% static 'main/css/footer.css' %}">
+    <link rel="stylesheet" href="{% static 'main/css/main.css' %}">
+    <link rel="stylesheet" href="{% static 'main/css/numbers.css' %}">
+    <link rel="stylesheet" href="{% static 'main/css/teacher.css' %}">
+    <link rel="stylesheet" href="{% static 'main/css/format.css' %}">
+    <link rel="stylesheet" href="{% static 'main/css/courses.css' %}">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <ul class="menu">
+        <li><a href="/about">О нас</a></li>
+        <li><a href="/">Платформа</a></li>
+        <li><a href="/course">Курсы</a></li>
+        <li><a href="/lectures">Лекции</a></li>
+        <li>Тарифы</li>
+        <li>Блог</li>
+        <li><a href="/contact">Контакты</a></li>
+    </ul>
+</header>
+{% block container %}{% endblock %}
+</body>
+</html>
+
+

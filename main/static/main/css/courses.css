@@ -1,0 +1,47 @@
+.courses {
+    color: var(--text-darck-color);
+    height: 75vh;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.courses .container {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courses .card-view {
+    display: flex;
+}
+
+.courses .card {
+    width: 25%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background: var(--text-light-color);
+    box-shadow: 5px 5px 30px rgba(101, 101, 101, 0.12);
+    border-radius: 10px;
+}
+
+.courses .description {
+    width: 100%;
+    padding: 15px 0 15px 0;
+}
+
+.courses .img {
+    width: 230px;
+    height: 155px;
+    background-color: var(--text-darck-color);
+}
+
+.courses .btn{
+    background-color: var(--green);
+    padding: 20px 74px;
+}

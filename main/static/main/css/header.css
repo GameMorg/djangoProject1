@@ -1,0 +1,31 @@
+
+.header {
+    position: fixed;
+    color: var(--text-light-color);
+    z-index: 10000;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 100vw;
+    background-color: var(--green);
+    justify-content: center;
+}
+
+.header .menu {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.header .menu li {
+    text-decoration: none;
+    list-style: none;
+    margin: 40px 20px;
+}

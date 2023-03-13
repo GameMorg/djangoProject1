@@ -1,0 +1,29 @@
+.numbers{
+    /* width: 100vw; */
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--green);
+}
+
+.numbers .container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin: 120px auto;
+}
+
+.numbers .card{
+    width: 270px;
+    text-align: center;
+}
+
+.numbers .number{
+    font-size: 58px;
+}
+
+.numbers .description{
+    color: var(--text-darck-color);
+    text-align: center;
+}

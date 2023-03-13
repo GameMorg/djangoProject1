@@ -1,0 +1,73 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: var(--text-light-color);
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    /*--text-light-color: #fdfdfd;*/
+    /*--text-darck-color: #353a5a;*/
+    /*--ornge: #FA9F42;*/
+    /*--green: #10B582;*/
+    --text-light-color: #fdfdfd;
+    --text-darck-color: #353a5a;
+    --ornge: #fd6599;
+    --green: #986599;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+
+.head {
+    font-size: 58px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: lighter;
+    width: 530px;
+}
+
+/** {*/
+/*      outline: 1px solid red;*/
+/*}*/
+
+a {
+    color: var(--text-light-color);
+    text-decoration: none;
+}
+
+.btn {
+    padding: 20px 47px;
+    border-radius: 0 20px;
+    background-color: var(--ornge);
+    border: none;
+    color: var(--text-light-color);
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.banana-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.banana-list li {
+    padding: 8px;
+}
+
+.price {
+    font-weight: bold;
+}
